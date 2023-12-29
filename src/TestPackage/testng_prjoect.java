@@ -16,7 +16,6 @@ public class testng_prjoect {
 		
 		
 		System.out.println("Executing some code");
-		System.out.println("Executing some code");
 		System.out.println(driver.getTitle());
 
 
