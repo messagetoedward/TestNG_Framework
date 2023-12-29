@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-28T20:15:40 EST" name="Default suite" finished-at="2023-12-28T20:15:45 EST" duration-ms="4962">
+    <groups>
+    </groups>
+    <test started-at="2023-12-28T20:15:40 EST" name="Default test" finished-at="2023-12-28T20:15:45 EST" duration-ms="4962">
+      <class name="TestPackage.testng_prjoect">
+        <test-method signature="TestNG()[pri:0, instance:TestPackage.testng_prjoect@318ba8c8]" started-at="2023-12-28T20:15:40 EST" name="TestNG" finished-at="2023-12-28T20:15:45 EST" duration-ms="4933" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestNG -->
+      </class> <!-- TestPackage.testng_prjoect -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
