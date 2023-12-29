@@ -19,6 +19,8 @@ public class testng_prjoect {
 		
 		System.out.println(driver.getTitle());
 		
+		System.out.println(driver.getTitle());
+
 //		driver.quit();
 	}
 
