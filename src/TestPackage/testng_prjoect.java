@@ -4,6 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
 
 public class testng_prjoect {
 	
@@ -14,15 +15,25 @@ public class testng_prjoect {
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://booking.com");
 		
+		SoftAssert softAssert = new SoftAssert();
 		
-		System.out.println("Executing some code");
+		softAssert.assertEquals(driver.getTitle(), "Booking.com | Official site | The best hotels, flights, car rentals & accommodations", "Should not pass");
 
 		System.out.println(driver.getTitle());
+		driver.quit();
+		
+		softAssert.assertAll();
 
 
-//		driver.quit();
+	}
+	
+	@Test
+	public void TestingLoginPage() {
+		
+		System.out.println("Testing login and consoling some random stuff");
+		
+		}
 	}
 
-}
 
 ///mgid/Documents/chromedriver_mac64/chromedriver
