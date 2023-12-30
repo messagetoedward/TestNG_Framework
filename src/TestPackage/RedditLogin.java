@@ -1,5 +1,7 @@
 package TestPackage;
 
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 public class RedditLogin {
@@ -10,9 +12,10 @@ public class RedditLogin {
 	}
 	
 	
-	@Test
+	@BeforeTest
 	
 	public void LandingWithCorrectData() {
 		System.out.println("Succesfully logged in with correct data");
 	}
+
 }

@@ -3,10 +3,25 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="TestPackage.booking"/>
-      <class name="TestPackage.amazon"/>
-      <class name="TestPackage.testng_prjoect"/>
-      <class name="TestPackage.RedditLogin"/>
+		
+      <class name="TestPackage.booking">
+		  <methods>
+			<!--
+			<include name="Booking.*"/>
+			<include name="PickingUpDate"/>
+			-->
+		  </methods>
+	  </class>
+      <class name="TestPackage.amazon">
+	  </class>
+      <class name="TestPackage.testng_prjoect">
+		  <methods>
+			  <exclude name="TestNG"/>
+		  </methods>
+	  </class>
+      <class name="TestPackage.RedditLogin">
+      </class>
+      <!--<class name=""> -->
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

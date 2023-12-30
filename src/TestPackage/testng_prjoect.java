@@ -17,7 +17,7 @@ public class testng_prjoect {
 		
 		SoftAssert softAssert = new SoftAssert();
 		
-		softAssert.assertEquals(driver.getTitle(), "Booking.com | Official site | The best hotels, flights, car rentals & accommodations", "Should not pass");
+		softAssert.assertEquals(driver.getTitle(), "Booking.com |... Official site | The best hotels, flights, car rentals & accommodations", "Should not pass");
 
 		System.out.println(driver.getTitle());
 		driver.quit();

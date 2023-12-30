@@ -1,5 +1,6 @@
 package TestPackage;
 
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
 
 public class booking {
@@ -10,7 +11,13 @@ public class booking {
 		System.out.println("Booking test Start");
 	}
 	
-	@Test
+	@AfterTest
+	
+	public void TestingAfterTest() {
+		System.out.println("Executing in the end");
+	}
+	
+	@Test(dependsOnMethods= {"PickingUpDate"})
 	public void BookingDestination() {
 		System.out.println("Booking test Destination");
 

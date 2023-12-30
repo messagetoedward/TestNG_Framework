@@ -1,17 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-12-28T20:15:40 EST" name="Default suite" finished-at="2023-12-28T20:15:45 EST" duration-ms="4962">
+  <suite started-at="2023-12-30T15:39:14 EST" name="Default suite" finished-at="2023-12-30T15:39:14 EST" duration-ms="67">
     <groups>
     </groups>
-    <test started-at="2023-12-28T20:15:40 EST" name="Default test" finished-at="2023-12-28T20:15:45 EST" duration-ms="4962">
-      <class name="TestPackage.testng_prjoect">
-        <test-method signature="TestNG()[pri:0, instance:TestPackage.testng_prjoect@318ba8c8]" started-at="2023-12-28T20:15:40 EST" name="TestNG" finished-at="2023-12-28T20:15:45 EST" duration-ms="4933" status="PASS">
+    <test started-at="2023-12-30T15:39:14 EST" name="Default test" finished-at="2023-12-30T15:39:14 EST" duration-ms="67">
+      <class name="TestPackage.booking">
+        <test-method signature="BookingPassengers()[pri:0, instance:TestPackage.booking@48aaecc3]" started-at="2023-12-30T15:39:14 EST" name="BookingPassengers" finished-at="2023-12-30T15:39:14 EST" duration-ms="12" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TestNG -->
-      </class> <!-- TestPackage.testng_prjoect -->
+        </test-method> <!-- BookingPassengers -->
+        <test-method signature="BookingTesting()[pri:0, instance:TestPackage.booking@48aaecc3]" started-at="2023-12-30T15:39:14 EST" name="BookingTesting" finished-at="2023-12-30T15:39:14 EST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BookingTesting -->
+        <test-method signature="PickingUpDate()[pri:0, instance:TestPackage.booking@48aaecc3]" started-at="2023-12-30T15:39:14 EST" name="PickingUpDate" finished-at="2023-12-30T15:39:14 EST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PickingUpDate -->
+        <test-method signature="BookingDestination()[pri:0, instance:TestPackage.booking@48aaecc3]" started-at="2023-12-30T15:39:14 EST" name="BookingDestination" finished-at="2023-12-30T15:39:14 EST" depends-on-methods="TestPackage.booking.PickingUpDate" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BookingDestination -->
+        <test-method is-config="true" signature="TestingAfterTest()[pri:0, instance:TestPackage.booking@48aaecc3]" started-at="2023-12-30T15:39:14 EST" name="TestingAfterTest" finished-at="2023-12-30T15:39:14 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestingAfterTest -->
+      </class> <!-- TestPackage.booking -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
